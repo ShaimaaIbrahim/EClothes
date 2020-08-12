@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph"
+    app:startDestination="@+id/home_dest">
+    <fragment
+        android:id="@+id/home_dest"
+        android:name="com.example.eclothe.ui.fragments.HomeFragment" />
+    <fragment
+        android:id="@+id/category_dest"
+        android:name="com.example.eclothe.ui.fragments.CategoryFragment" />
+    <fragment
+        android:id="@+id/cart_dest"
+        android:name="com.example.eclothe.ui.fragments.CartFragment" />
+    <fragment
+        android:id="@+id/favorite_dest"
+        android:name="com.example.eclothe.ui.fragments.FavoriteFragment" />
+    <fragment
+        android:id="@+id/profile_dest"
+        android:name="com.example.eclothe.ui.fragments.ProfileFragment" />
+</navigation>
